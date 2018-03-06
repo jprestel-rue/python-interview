@@ -35,6 +35,7 @@ The code in this project can be run locally with relatively little setup.
 ### Checkout the pull-request branch
 
 the master branch is pretty boring, so you'll want to checkout the feature branch created by the junior dev.
+
 ```shell
 git checkout feature/account
 ```
