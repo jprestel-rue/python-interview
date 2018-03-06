@@ -41,8 +41,11 @@ git checkout feature/account
 
 ### Execute the tests
 
-This project uses `pytest` with the `pytest-sugar` plug-in to make test output a little prettier.
+This project uses `pytest`, so running the tests is a simple command:
 
 ```shell
-pytest
+pytest -vv
 ```
+
+The `pytest-sugar` plug-in makes pytest's output a little more dev friendly.
+![example pytest-sugar output](docs/images/pytest-sugar.png)
